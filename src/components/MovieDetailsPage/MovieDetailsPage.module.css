@@ -1,0 +1,86 @@
+.movieDetailsSection {
+  background-color: rgb(2, 2, 2);
+  padding: 20px 20px 20px 20px;
+}
+
+h2,
+p {
+  margin: 0 0;
+}
+
+.containerContent {
+  display: flex;
+  align-items: stretch;
+}
+
+.containerImage {
+  margin-right: 20px;
+}
+
+.overview {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(182, 174, 174);
+}
+
+.overviewText {
+  color: rgb(182, 174, 174);
+  line-height: 1.5;
+}
+
+.genres {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(182, 174, 174);
+}
+
+.moreInfo {
+  color: rgb(182, 174, 174);
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 0 0;
+  margin: 0 0;
+  color: rgb(182, 174, 174);
+}
+
+.average {
+  color: rgb(182, 174, 174);
+}
+
+.listNavLink {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: rgb(182, 174, 174);
+}
+
+.moreItem {
+  list-style: none;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.linkBack {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.buttonBack {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 3px 15px;
+}
+
+.title {
+  color: rgb(182, 174, 174);
+}

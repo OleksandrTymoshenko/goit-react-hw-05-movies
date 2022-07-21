@@ -1,0 +1,25 @@
+.title {
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.movieList {
+  margin-top: 0;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 20px;
+}
+
+.item {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.item:hover {
+  color: rgb(0, 4, 255);
+}
+
+.movieItem:not(:last-child) {
+  margin-bottom: 15px;
+}
